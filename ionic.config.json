@@ -1,0 +1,7 @@
+{
+  "name": "apihttp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
