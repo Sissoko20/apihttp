@@ -20,10 +20,12 @@
 
 <ion-content>
 
-  <ion-grid fixed>
+  <ion-grid [fixed]="true">
     <ion-row>
-      <ion-col offset="3" sizeMd="3" sizeSm="3">
+      <ion-col >
+        <div class="fleximg">
         <img [src]="movieData.imageUrl" alt="">
+      </div>
       </ion-col>
     </ion-row>
     <ion-row>
